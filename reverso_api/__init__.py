@@ -1,1 +1,1 @@
-from context import ReversoContextAPI
+from .context import ReversoContextAPI
