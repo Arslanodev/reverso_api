@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "reverso-api"
+version = "0.1.0"
+description = ""
+authors = ["Arslanodev <aamanov829@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.1"
+asyncio = "^3.4.3"
+aiohttp = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
