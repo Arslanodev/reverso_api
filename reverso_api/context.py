@@ -1,4 +1,5 @@
 """Reverso Context (context.reverso.net) API for Python"""
+
 import asyncio
 import json
 from typing import Iterator
@@ -30,7 +31,7 @@ class ReversoContextAPI(object):
         self.target_lang = target_lang
 
     def __get_translations(self, response: dict, word: str) -> Translation:
-        "Returns Translation namedtuple"
+        """Returns Translation namedtuple"""
         trans_ls = []
         for index, item in enumerate(response["dictionary_entry_list"]):
             trans_ls.append(item["term"])
