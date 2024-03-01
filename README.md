@@ -24,7 +24,7 @@ This package has not been uploaded to pypy.org so that's why you will need to in
 
 Simply run command:
 ```bash
-pip3 install git+https://github.com/Arslanodev/reverso_api.git
+pip3 install git+https://github.com/Arslanodev/reverso_api.git@working_v
 ```
 
 This project is in development stage. But you can use this package in your projects.
